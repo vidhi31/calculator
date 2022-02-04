@@ -1,5 +1,6 @@
 body{
     background-color: lightcyan;
+    border: lightseagreen;
     display: flex;
     justify-content: center;
     align-content: center;
