@@ -62,14 +62,13 @@ button{
     width: 100px;
     height: 80px;
     background-color:#E0FFFF;
-    font-size: large;
+    font-size: x-large;
     border-color: #E0FFFF;
 }
 .operators button{
-    background-color: #48D1CC;
-    border-color: #48D1CC;
+    background-color: #E0FFFF;
+    border-color: #E0FFFF;
+    color: blue;
+    font-size: x-large;
 }
-#equalsto button{
-    background-color: #00CED1;
-    border: #00CED1;
-}
+
