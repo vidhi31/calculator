@@ -72,3 +72,147 @@ button{
     font-size: x-large;
 }
 
+@media screen and (max-width: 1030px) {
+    .button_column1 {
+      flex: 25%;
+      max-width: 25%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .button_column1 {
+      flex: 30%;
+      max-width: 30%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .button_column1 {
+      flex: 45.5%;
+      max-width: 45.5%;
+    }
+  }
+  
+ @media screen and (max-width: 400px) {
+    .button_column1 {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .button_column2 {
+      flex: 25%;
+      max-width: 25%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .button_column2 {
+      flex: 30%;
+      max-width: 30%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .button_column2 {
+      flex: 45.5%;
+      max-width: 45.5%;
+    }
+  }
+  
+ @media screen and (max-width: 400px) {
+    .button_column2 {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .button_column3 {
+      flex: 25%;
+      max-width: 25%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .button_column3 {
+      flex: 30%;
+      max-width: 30%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .button_column3 {
+      flex: 45.5%;
+      max-width: 45.5%;
+    }
+  }
+  
+ @media screen and (max-width: 400px) {
+    .button_column3 {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .button_column4 {
+      flex: 25%;
+      max-width: 25%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .button_column4 {
+      flex: 30%;
+      max-width: 30%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .button_column4 {
+      flex: 45.5%;
+      max-width: 45.5%;
+    }
+  }
+  
+ @media screen and (max-width: 400px) {
+    .button_column4 {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .button_column5 {
+      flex: 25%;
+      max-width: 25%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .button_column5 {
+      flex: 30%;
+      max-width: 30%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .button_column5 {
+      flex: 45.5%;
+      max-width: 45.5%;
+    }
+  }
+  
+ @media screen and (max-width: 400px) {
+    .button_column5 {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+
+
+
+
