@@ -51,6 +51,12 @@ input{
     align-items: center;
     justify-content: center;
 }
+.button_column5{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
 button{
     margin:5px;
     width: 100px;
