@@ -2,7 +2,7 @@ body{
     background-color: lightcyan;
     border: lightseagreen;
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: center;
     align-content: center;
 }
