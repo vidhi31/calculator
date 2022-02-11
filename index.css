@@ -34,7 +34,7 @@ input{
     display: flex;
     align-content: center;
     justify-content: center;
-    flex-wrap: wrap;
+    
 
 }
 .button_column2{
@@ -42,28 +42,28 @@ input{
     align-content: center;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 .button_column3{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 .button_column4{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 .button_column5{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 button{
     margin:5px;
