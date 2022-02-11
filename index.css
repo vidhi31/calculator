@@ -2,6 +2,7 @@ body{
     background-color: lightcyan;
     border: lightseagreen;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
 }
@@ -26,11 +27,14 @@ body{
 }
 input{
     font-size:34.3px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .button_column1{
     display: flex;
     align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 .button_column2{
@@ -38,24 +42,28 @@ input{
     align-content: center;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .button_column3{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .button_column4{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .button_column5{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 button{
     margin:5px;
@@ -72,145 +80,6 @@ button{
     font-size: x-large;
 }
 
-@media screen and (max-width: 800px) {
-    .button_column1 {
-      flex: 30%;
-      max-width: 30%;
-    }
-  }
-
-@media screen and (max-width: 600px) {
-    .button_column1 {
-      flex: 30%;
-      max-width: 30%;
-    }
-  }
-
-@media screen and (max-width: 400px) {
-    .button_column1 {
-      flex: 40%;
-      max-width: 40%;
-    }
-  }
-  
- @media screen and (max-width: 300px) {
-    .button_column1 {
-      flex: 100%;
-      max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .button_column2 {
-      flex: 25%;
-      max-width: 25%;
-    }
-  }
-
-@media screen and (max-width: 600px) {
-    .button_column2 {
-      flex: 30%;
-      max-width: 30%;
-    }
-  }
-
-@media screen and (max-width: 400px) {
-    .button_column2 {
-      flex: 45.5%;
-      max-width: 45.5%;
-    }
-  }
-  
- @media screen and (max-width: 300px) {
-    .button_column2 {
-      flex: 100%;
-      max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .button_column3 {
-      flex: 25%;
-      max-width: 25%;
-    }
-  }
-
-@media screen and (max-width: 600px) {
-    .button_column3 {
-      flex: 30%;
-      max-width: 30%;
-    }
-  }
-
-@media screen and (max-width: 400px) {
-    .button_column3 {
-      flex: 45.5%;
-      max-width: 45.5%;
-    }
-  }
-  
- @media screen and (max-width: 300px) {
-    .button_column3 {
-      flex: 100%;
-      max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .button_column4 {
-      flex: 25%;
-      max-width: 25%;
-    }
-  }
-
-@media screen and (max-width: 600px) {
-    .button_column4 {
-      flex: 30%;
-      max-width: 30%;
-    }
-  }
-
-@media screen and (max-width: 400px) {
-    .button_column4 {
-      flex: 45.5%;
-      max-width: 45.5%;
-    }
-  }
-  
- @media screen and (max-width: 300px) {
-    .button_column4 {
-      flex: 100%;
-      max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .button_column5 {
-      flex: 25%;
-      max-width: 25%;
-    }
-  }
-
-@media screen and (max-width: 600px) {
-    .button_column5 {
-      flex: 30%;
-      max-width: 30%;
-    }
-  }
-
-@media screen and (max-width: 400px) {
-    .button_column5 {
-      flex: 45.5%;
-      max-width: 45.5%;
-    }
-  }
-  
- @media screen and (max-width: 300px) {
-    .button_column5 {
-      flex: 100%;
-      max-width: 100%;
-    }
-}
 
 
 
