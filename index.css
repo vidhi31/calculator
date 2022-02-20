@@ -30,6 +30,8 @@ body{
 }
 input{
     font-size:34.3px;
+    display: flex;
+    justify-content: center;
 }
 
 #button_column1{
