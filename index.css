@@ -32,6 +32,7 @@ input{
     font-size:35px;
     display: flex;
     justify-content: center;
+    padding-left: 2px;
 }
 
 #button_column1{
