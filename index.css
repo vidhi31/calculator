@@ -27,8 +27,21 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-input{
-    font-size:34.3px;
+.display .input{
+    text-align: right;
+    height: 8vh;
+    color: white;
+    font-size: xx-large;
+    line-height: 2;
+    word-wrap: break-word;
+} 
+.display .answerScreen{
+    text-align: right;
+    color: rgba(150, 150, 150, 0.87);
+    height: 7px;
+    line-height: 3;
+    font-size: larger
+
 }
 
 #button_column1{
