@@ -93,7 +93,7 @@ button{
     font-size: x-large;
     border-color: #E0FFFF;
 }
-button .op_fn{
+#column .op_fn{
     background-color: #E0FFFF;
     border-color: #E0FFFF;
     color: blue;
