@@ -34,7 +34,7 @@ input{
     justify-content: center;
     padding-left: 2px;
 }
-input #input{
+#inputScreen{
     /* display: flex; */
     text-align: right;
     height: 8vh;
@@ -43,7 +43,7 @@ input #input{
     line-height: 2;
     word-wrap: break-word;
 }
-input #answer{
+#answerScreen{
     text-align: right;
     color: lightseagreen;
     height: 7px;
