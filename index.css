@@ -34,6 +34,22 @@ input{
     justify-content: center;
     padding-left: 2px;
 }
+input #input{
+    /* display: flex; */
+    text-align: right;
+    height: 8vh;
+    color: #008080;
+    font-size: xx-large;
+    line-height: 2;
+    word-wrap: break-word;
+}
+input #answer{
+    text-align: right;
+    color: lightseagreen;
+    height: 7px;
+    line-height: 3;
+    font-size: larger;
+}
 
 #button_column1{
     display: flex;
