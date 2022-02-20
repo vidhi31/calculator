@@ -31,28 +31,28 @@ input{
     align-content: center;
     justify-content: center;
 }
-.button_column2{
+#button_column2{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     
 }
-.button_column3{
+#button_column3{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     
 }
-.button_column4{
+#button_column4{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     
 }
-.button_column5{
+#button_column5{
     display: flex;
     align-content: center;
     align-items: center;
