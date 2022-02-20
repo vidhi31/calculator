@@ -51,33 +51,33 @@ input{
     font-size: larger;
 }
 
-#button_column1{
+#button_row1{
     display: flex;
     align-content: center;
     justify-content: center;
 }
-#button_column2{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    
-}
-#button_column3{
+#button_row2{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     
 }
-#button_column4{
+#button_row3{
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
     
 }
-#button_column5{
+#button_row4{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+#button_row5{
     display: flex;
     align-content: center;
     align-items: center;
