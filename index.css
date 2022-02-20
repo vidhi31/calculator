@@ -2,7 +2,7 @@ body{
     background-color: lightcyan;
     border: lightseagreen;
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
 }
@@ -11,7 +11,9 @@ body{
     margin: auto;
     background-color: #008080 ;
     margin-top: 5px;
-    margin-bottom: 5px;   
+    margin-bottom: 5px;
+    display: flex;  
+    flex-wrap: wrap; 
 }
 .container{
     text-align: center;
@@ -20,12 +22,15 @@ body{
 .container h1{
     margin: 10px;
 }
-.screen{
+.display{
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 input{
     font-size:34.3px;
 }
+
 #button_column1{
     display: flex;
     align-content: center;
@@ -72,6 +77,31 @@ button{
     border-color: #E0FFFF;
     color: blue;
     font-size: x-large;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        align-items: flex-start;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    body {
+        align-items: flex-start;
+    }
+}
+@media only screen and (max-width: 800px) {
+    body {
+        align-items: flex-start;
+    }
+}
+@media only screen and (max-width: 400px) {
+    body {
+        align-items: flex-start;
+    }
+}
+@media only screen and (max-width: 700px) {
+    body {
+        align-items: flex-start;
+    }
 }
 
 
