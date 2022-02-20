@@ -29,7 +29,7 @@ body{
     flex-wrap: wrap;
 }
 input{
-    font-size:34.3px;
+    font-size:35px;
     display: flex;
     justify-content: center;
 }
