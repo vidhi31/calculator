@@ -93,7 +93,7 @@ button{
     font-size: x-large;
     border-color: #E0FFFF;
 }
-.operators button{
+.op_fn{
     background-color: #E0FFFF;
     border-color: #E0FFFF;
     color: blue;
