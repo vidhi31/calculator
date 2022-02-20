@@ -27,7 +27,10 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-input{
+#input{
+    font-size:34.3px;
+}
+#answer{
     font-size:34.3px;
 }
 
