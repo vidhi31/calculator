@@ -10,7 +10,7 @@ var ScreenValue = []
 clearbtn.addEventListener("click", function(){
     ScreenValue = [''];
     AnswerScreen.innerHTML = 0;
-    InputScreen.id = 'Input'
+    InputScreen.id = 'Input';
     AnswerScreen.id = 'Answer';
     AnswerScreen.style.color = " rgba(150, 150, 150, 0.87)";
 });
