@@ -18,14 +18,11 @@ clearbtn.addEventListener("click", function(){
 buttons.forEach(function(btn){
 
 
-    btn.addEventListener("click", function(){
-        // when clicked button is not erased button 
+    btn.addEventListener("click", function(){ 
         if (!btn.id.match('erase')) {
-            // To display value on btn press
             ScreenValue.push(btn.value)
             InputScreen.innerHTML = ScreenValue.join('');
 
-            // To evaluate answer in real time
             if (btn.classList.contains('num_btn')) {
 
                 AnswerScreen.innerHTML = eval(ScreenValue.join(''));
