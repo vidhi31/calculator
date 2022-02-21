@@ -10,8 +10,8 @@ var ScreenValue = []
 clearbtn.addEventListener("click", function(){
     ScreenValue = [''];
     AnswerScreen.innerHTML = 0;
-    InputScreen.className = 'Input'
-    AnswerScreen.className = 'Answer';
+    InputScreen.id = 'Input'
+    AnswerScreen.id = 'Answer';
     AnswerScreen.style.color = " rgba(150, 150, 150, 0.87)";
 })
 
@@ -38,9 +38,9 @@ buttons.forEach(function(btn){
 
 // When clicked button is evaluate button
 if (btn.id.match('equalTo')) {
-    InputScreen.className = 'AnswerScreen';
-    AnswerScreen.className = 'InputScreen';
-    AnswerScreen.style.color = "white";
+    InputScreen.id = 'AnswerScreen';
+    AnswerScreen.id = 'InputScreen';
+    AnswerScreen.style.color = "black";
 }
 
 // To prevent undefined error in screen
