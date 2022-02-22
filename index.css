@@ -9,7 +9,7 @@ body{
 }
 .calculator{
     max-width: 350px;
-    max-height: 500px;
+    max-height: 510px;
     margin: auto;
     background-color: #008080 ;
     margin-top: 5px;
@@ -34,7 +34,7 @@ body{
     justify-content: center;
 }
 input{
-    font-size:25px;
+    font-size:27px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -93,7 +93,7 @@ input{
 button{
     margin:5px;
     width: 74px;
-    height: 40px;
+    height: 45px;
     background-color:#E0FFFF;
     font-size: x-large;
     border-color: #E0FFFF;
