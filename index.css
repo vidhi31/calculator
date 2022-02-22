@@ -34,8 +34,9 @@ body{
     justify-content: center;
 }
 input{
-    font-size:35px;
+    font-size:23.3px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-left: 2px;
 }
