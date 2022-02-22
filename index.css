@@ -5,6 +5,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    max-width: fit-content;
 }
 .calculator{
     width: 435px;
@@ -19,6 +20,8 @@ body{
 .container{
     text-align: center;
     color: whitesmoke;
+    display: flex;  
+    flex-wrap: wrap;
 }
 .container h1{
     margin: 10px;
