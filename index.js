@@ -25,7 +25,7 @@ button.forEach(function(element){
         var result = eval(screenValue.join(''));
         screen.innerText = result;
         screenValue = [];
-        console.log(eval(screenVal.join('')));
+        console.log(eval(screenValue.join('')));
     }
 })
 });
