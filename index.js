@@ -11,14 +11,13 @@ clearbtn.addEventListener("click", function(){
     ScreenValue = [''];
     AnswerScreen.innerHTML = 0;
     InputScreen.id = 'Input';
-    AnswerScreen.id = 'Answer';
-    AnswerScreen.style.color = "rgba(150, 150, 150, 0.87)";
+    AnswerScreen.id = 'Answer';    
 });
 
 buttons.forEach(function(btn){
 
 
-    btn.addEventListener("click", function(){ 
+    btn.addEventListener("DOMContentLoaded", function(){ 
         if (!btn.id.match('delete')) {
             ScreenValue.push(btn.value)
             InputScreen.innerHTML = ScreenValue.join('');
