@@ -1,52 +1,30 @@
-var InputScreen = document.querySelector('#input');
-var AnswerScreen = document.querySelector('#answer');
-var buttons = document.querySelector('button');
-var deletebtn = document.querySelector('#delete');
-var clearbtn = document.querySelector('#clear');
-var equalbtn = document.querySelector('#EqualTo');
+var button = document.querySelectorAll('button');
+var screen = document.querySelector('#inputScreen');
+var screenValue = [];
+button.forEach(function(element){
+    element.addEventListener("click", function(){
+     if(!element.className.match('fun_button')) {
+        screenValue.push(element.value);
+        screen.innerText = screenValue.join('');
+        console.log(screenValue);
+    }
 
-var ScreenValue = []
+    if (element.id.match('clear')){
+        screenValue = [];
+        screen.innerText = screenValue;
+        console.log(screenValue);
+    }
 
-clearbtn.addEventListener("click", function(){
-    ScreenValue = [''];
-    AnswerScreen.innerHTML = 0;
-    InputScreen.id = 'Input';
-    AnswerScreen.id = 'Answer';    
+    if (element.id.match('delete')){
+        screenValue.pop();
+        screen.innerText = screenValue.join('');
+        console.log(screenValue);
+    }
+
+    if (element.id.match('equal')){
+        let result = eval(screenValue.join(''));
+        screen.innerText = result;
+        screenValue = [];
+    }
+})
 });
-
-buttons.forEach(function(btn){
-
-
-    btn.addEventListener("click", function(){ 
-        if (!btn.id.match('delete')) {
-            ScreenValue.push(btn.value)
-            InputScreen.innerHTML = ScreenValue.join('');
-
-            if (btn.classList.contains('num_btn')) {
-
-                AnswerScreen.innerHTML = eval(ScreenValue.join(''));
-            }
-        }
-
-
- // When erase button is clicked
- if (btn.id.match('delete')) {
-    ScreenValue.pop();
-    InputScreen.innerHTML = ScreenValue.join('');
-    AnswerScreen.innerHTML = eval(ScreenValue.join(''));
-}
-
-// When clicked button is evaluate button
-if (btn.id.match('EqualTo')) {
-    InputScreen.id = 'AnswerScreen';
-    AnswerScreen.id = 'InputScreen';
-    
-}
-
-// To prevent undefined error in screen
-if (typeof eval(ScreenValue.join('')) == 'undefined') {
-    AnswerScreen.innerHTML = 0
-}
-    })
-});
-
