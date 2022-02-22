@@ -33,13 +33,13 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
-input{
+/*input{
     font-size:26.3px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 2px;
-}
+}*/
 #inputScreen{
     /* display: flex; */
     text-align: right;
@@ -48,13 +48,6 @@ input{
     font-size: xx-large;
     line-height: 2;
     word-wrap: break-word;
-}
-#answerScreen{
-    text-align: right;
-    color: lightseagreen;
-    height: 7px;
-    line-height: 3;
-    font-size: larger;
 }
 
 #button_row1{
