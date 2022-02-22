@@ -34,7 +34,7 @@ body{
     justify-content: center;
 }
 input{
-    font-size:26px;
+    font-size:26.5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -92,8 +92,8 @@ input{
 }
 button{
     margin:5px;
-    width: 74px;
-    height: 42px;
+    width: 75px;
+    height: 45px;
     background-color:#E0FFFF;
     font-size: x-large;
     border-color: #E0FFFF;
