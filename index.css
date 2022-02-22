@@ -42,7 +42,7 @@ body{
 }*/
 #input{
     margin: 9px 8px;
-    /*width: -webkit-fill-available;*/
+    width: -webkit-fill-available;
     height: 150px;
     background-color: white;
     border: 2px #008080;
