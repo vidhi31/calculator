@@ -47,6 +47,6 @@ if (btn.id.match('EqualTo')) {
 if (typeof eval(ScreenValue.join('')) == 'undefined') {
     AnswerScreen.innerHTML = 0
 }
-
+    })
 });
 
