@@ -12,7 +12,7 @@ clearbtn.addEventListener("click", function(){
     AnswerScreen.innerHTML = 0;
     InputScreen.id = 'Input';
     AnswerScreen.id = 'Answer';
-    AnswerScreen.style.color = " rgba(150, 150, 150, 0.87)";
+    AnswerScreen.style.color = "rgba(150, 150, 150, 0.87)";
 });
 
 buttons.forEach(function(btn){
@@ -38,7 +38,7 @@ buttons.forEach(function(btn){
 }
 
 // When clicked button is evaluate button
-if (btn.id.match('equalTo')) {
+if (btn.id.match('EqualTo')) {
     InputScreen.id = 'AnswerScreen';
     AnswerScreen.id = 'InputScreen';
     AnswerScreen.style.color = "black";
