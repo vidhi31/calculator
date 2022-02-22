@@ -3,7 +3,7 @@ var screen = document.querySelector('#inputScreen');
 var screenValue = [];
 button.forEach(function(element){
     element.addEventListener("click", function(){
-     if(!element.className.match('fun_button')) {
+     if(!element.className.match('fun_btn')) {
         screenValue.push(element.value);
         screen.innerText = screenValue.join('');
         console.log(screenValue);
