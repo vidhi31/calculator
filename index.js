@@ -22,9 +22,10 @@ button.forEach(function(element){
     }
 
     if (element.id.match('equalTo')){
-        let result = eval(screenValue.join(''));
+        var result = eval(screenValue.join(''));
         screen.innerText = result;
         screenValue = [];
+        console.log(eval(screenVal.join('')));
     }
 })
 });
