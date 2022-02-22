@@ -21,7 +21,7 @@ button.forEach(function(element){
         console.log(screenValue);
     }
 
-    if (element.id.match('equal')){
+    if (element.id.match('equalTo')){
         let result = eval(screenValue.join(''));
         screen.innerText = result;
         screenValue = [];
