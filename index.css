@@ -25,10 +25,7 @@ body{
     flex-wrap: wrap;
 }
 h1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+    text-align: center;
 }
 .display{
     width: 313px;
