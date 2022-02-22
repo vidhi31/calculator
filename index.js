@@ -17,7 +17,7 @@ clearbtn.addEventListener("click", function(){
 buttons.forEach(function(btn){
 
 
-    btn.addEventListener("DOMContentLoaded", function(){ 
+    btn.addEventListener("click", function(){ 
         if (!btn.id.match('delete')) {
             ScreenValue.push(btn.value)
             InputScreen.innerHTML = ScreenValue.join('');
@@ -27,7 +27,7 @@ buttons.forEach(function(btn){
                 AnswerScreen.innerHTML = eval(ScreenValue.join(''));
             }
         }
-    });
+
 
  // When erase button is clicked
  if (btn.id.match('delete')) {
@@ -40,7 +40,7 @@ buttons.forEach(function(btn){
 if (btn.id.match('EqualTo')) {
     InputScreen.id = 'AnswerScreen';
     AnswerScreen.id = 'InputScreen';
-    AnswerScreen.style.color = "black";
+    
 }
 
 // To prevent undefined error in screen
