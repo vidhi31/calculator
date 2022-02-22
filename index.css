@@ -40,14 +40,17 @@ body{
     justify-content: center;
     padding-left: 2px;
 }*/
-#inputScreen{
-    /* display: flex; */
-    text-align: right;
-    height: 8vh;
-    color: #008080;
-    font-size: xx-large;
-    line-height: 2;
-    word-wrap: break-word;
+#input{
+    margin: 9px 8px;
+    /*width: -webkit-fill-available;*/
+    height: 150px;
+    background-color: white;
+    border: 2px #008080;
+    font-size: 34px;
+    text-align-last: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 #button_row1{
