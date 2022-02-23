@@ -31,6 +31,7 @@ body{
     border: 1px solid #008080;
     padding: 5px 5px;
     background-color: lightcyan;
+    font-size: larger;
 }
 
 #input{
@@ -82,7 +83,7 @@ body{
 button{
     margin:5px;
     width: 75px;
-    height: 48px;
+    height: 50px;
     background-color:#E0FFFF;
     font-size: x-large;
     border-color: #E0FFFF;
