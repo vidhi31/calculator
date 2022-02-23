@@ -42,9 +42,9 @@ body{
     border: 2px #008080;
     font-size: 34px;
     text-align-last: right;
-    display: flex;
+    /*display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-end;*/
 }
 
 #button_row1{
