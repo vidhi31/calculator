@@ -12,8 +12,8 @@ body{
     max-height: 530px;
     /*margin: auto;*/
     background-color: #008080 ;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    /*margin-top: 5px;
+    margin-bottom: 5px;*/
     display: flex;  
     flex-wrap: wrap; 
     justify-content: center;
