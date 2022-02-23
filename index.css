@@ -83,14 +83,14 @@ body{
 button{
     margin:5px;
     width: 75px;
-    height: 55px;
+    height: 60px;
     background-color:lavenderblush;
     font-size: x-large;
     border-color: lavenderblush;
 }
 
 #column{
-    height: 535px;
+    height: 530px;
 }
 
 
